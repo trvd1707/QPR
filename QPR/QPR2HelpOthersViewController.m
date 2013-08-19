@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 QPR Institute. All rights reserved.
 //
 
-#import "QPRSecondViewController.h"
+#import "QPR2HelpOthersViewController.h"
 
-@interface QPRSecondViewController ()
+@interface QPR2HelpOthersViewController ()
 
 @end
 
-@implementation QPRSecondViewController
+@implementation QPR2HelpOthersViewController
 
 - (void)viewDidLoad
 {

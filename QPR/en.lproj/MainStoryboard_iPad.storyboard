@@ -4,24 +4,24 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--First View Controller - First-->
+        <!--Me View Controller - I need help-->
         <scene sceneID="11">
             <objects>
-                <viewController id="2" customClass="QPRFirstViewController" sceneMemberID="viewController">
+                <viewController id="2" customClass="QPR4MeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="17">
                         <rect key="frame" x="0.0" y="20" width="768" height="955"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="18">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="I need help" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="18">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="Loaded by the First View Controller — an instance of QPRFirstViewController — specified in the app delegate." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="19">
+                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="Looking for help because I'm feeling suicidal" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="19">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="268" id="Ka6-KM-ccG"/>
-                                    <constraint firstAttribute="height" constant="70" id="WP3-kA-6dL"/>
+                                    <constraint firstAttribute="height" constant="52" id="pwQ-Yq-mtl"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" size="system"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -42,31 +42,31 @@
                             <constraint firstItem="19" firstAttribute="top" secondItem="17" secondAttribute="top" constant="350" id="pKg-gt-hVJ"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="7"/>
+                    <tabBarItem key="tabBarItem" title="I need help" image="first" id="7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-615" y="-2964"/>
         </scene>
-        <!--Second View Controller - Second-->
+        <!--Help Others View Controller - I want to help-->
         <scene sceneID="13">
             <objects>
-                <viewController id="3" customClass="QPRSecondViewController" sceneMemberID="viewController">
+                <viewController id="3" customClass="QPR2HelpOthersViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="16">
                         <rect key="frame" x="0.0" y="20" width="768" height="955"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="21">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="I want to help someone who is suicidal" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="21">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="Loaded by the Second View Controller — an instance of QPRSecondViewController — specified in the app delegate." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="22">
+                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="I know someone who might be suicidal and I don't know what I can do to help" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="22">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="39I-E8-1dg"/>
                                     <constraint firstAttribute="width" constant="297" id="F6J-XU-KBh"/>
+                                    <constraint firstAttribute="height" constant="52" id="Rrb-WG-Abw"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" size="system"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -89,7 +89,7 @@
                             <constraint firstAttribute="trailing" secondItem="21" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="v87-JO-j7C"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="6"/>
+                    <tabBarItem key="tabBarItem" title="I want to help" image="second" id="6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
             </objects>
@@ -173,7 +173,10 @@
                                     <constraint firstAttribute="height" constant="128" id="uwK-WN-9VS"/>
                                     <constraint firstAttribute="width" constant="542" id="yKV-KN-nXR"/>
                                 </constraints>
-                                <string key="text">Would you like to understand suicide? (yes/no)Are you having thoughts of suicide or wishing you were dead?  (yes/no)If you are thinking of suicide, and if we could find a solution other than suicide to your problems, would you interested? (yes/no)Worried about someone you know? Not sure what to say or what to do? </string>
+                                <string key="text">Sometimes I ask myself why some people die by suicide...
+Sometimes I have thoughts of suicide or I wish I could die...
+Death seems to be the only way out. I wonder if there is another solution to my problems.
+I'm worried about someone I know and I'm not sure what to say or what to do. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -189,11 +192,10 @@
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xnf-ej-2HR">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="73" id="8ac-pe-aml"/>
                                     <constraint firstAttribute="height" constant="44" id="Xid-gB-yzg"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Learn">
+                                <state key="normal" title="Let's learn more about suicide">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -208,13 +210,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="LvA-Cg-vW6" firstAttribute="top" secondItem="kjn-60-lGe" secondAttribute="top" constant="456" id="0R9-F0-eoQ"/>
-                            <constraint firstAttribute="bottom" secondItem="2fU-W8-rrR" secondAttribute="bottom" constant="246" id="UfX-GK-15M"/>
-                            <constraint firstItem="2fU-W8-rrR" firstAttribute="leading" secondItem="kjn-60-lGe" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Yfd-Vi-Jub"/>
+                            <constraint firstItem="LvA-Cg-vW6" firstAttribute="leading" secondItem="kjn-60-lGe" secondAttribute="leading" constant="125" id="3KR-wx-keL"/>
+                            <constraint firstItem="2fU-W8-rrR" firstAttribute="leading" secondItem="kjn-60-lGe" secondAttribute="leading" constant="80" id="483-NH-8OI"/>
+                            <constraint firstAttribute="trailing" secondItem="Xnf-ej-2HR" secondAttribute="trailing" constant="58" id="PdB-2e-LJf"/>
+                            <constraint firstAttribute="bottom" secondItem="Xnf-ej-2HR" secondAttribute="bottom" constant="48" id="Tq6-ci-1Tl"/>
                             <constraint firstItem="39S-UB-tMf" firstAttribute="top" secondItem="kjn-60-lGe" secondAttribute="top" constant="263" id="htY-0t-lF9"/>
-                            <constraint firstAttribute="trailing" secondItem="Xnf-ej-2HR" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="kv6-UN-qlG"/>
-                            <constraint firstAttribute="bottom" secondItem="Xnf-ej-2HR" secondAttribute="bottom" constant="39" id="mfj-dw-KuQ"/>
-                            <constraint firstItem="39S-UB-tMf" firstAttribute="leading" secondItem="kjn-60-lGe" secondAttribute="leading" constant="348" id="rgs-Dn-chG"/>
-                            <constraint firstItem="2fU-W8-rrR" firstAttribute="trailing" secondItem="LvA-Cg-vW6" secondAttribute="trailing" type="default" id="uZJ-aN-KlT"/>
+                            <constraint firstItem="2fU-W8-rrR" firstAttribute="centerX" secondItem="39S-UB-tMf" secondAttribute="centerX" type="default" id="sR1-KF-7I4"/>
+                            <constraint firstAttribute="bottom" secondItem="2fU-W8-rrR" secondAttribute="bottom" constant="239" id="y7H-Ja-lYT"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -227,17 +229,6 @@
         <image name="first" width="16" height="16"/>
         <image name="second" width="16" height="16"/>
     </resources>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="QPRFirstViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/QPRFirstViewController.h"/>
-        </class>
-        <class className="QPRSecondViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/QPRSecondViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>

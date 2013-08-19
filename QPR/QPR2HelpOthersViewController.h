@@ -1,5 +1,5 @@
 //
-//  QPRFirstViewController.h
+//  QPRSecondViewController.h
 //  QPR
 //
 //  Created by Teresa Rios-Van Dusen on 8/11/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface QPRFirstViewController : UIViewController
+@interface QPR2HelpOthersViewController : UIViewController
 
 @end

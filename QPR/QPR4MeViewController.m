@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 QPR Institute. All rights reserved.
 //
 
-#import "QPRFirstViewController.h"
+#import "QPR4MeViewController.h"
 
-@interface QPRFirstViewController ()
+@interface QPR4MeViewController ()
 
 @end
 
-@implementation QPRFirstViewController
+@implementation QPR4MeViewController
 
 - (void)viewDidLoad
 {

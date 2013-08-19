@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		014BF06417B96F4300D1DBB0 /* QPRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014BF06317B96F4300D1DBB0 /* QPRMainViewController.m */; };
 		0BA2844717B889C200A4CEAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA2844617B889C200A4CEAB /* UIKit.framework */; };
 		0BA2844917B889C200A4CEAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA2844817B889C200A4CEAB /* Foundation.framework */; };
 		0BA2844B17B889C200A4CEAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA2844A17B889C200A4CEAB /* CoreGraphics.framework */; };
@@ -18,15 +19,17 @@
 		0BA2845D17B889C200A4CEAB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA2845C17B889C200A4CEAB /* Default-568h@2x.png */; };
 		0BA2846017B889C200A4CEAB /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BA2845E17B889C200A4CEAB /* MainStoryboard_iPhone.storyboard */; };
 		0BA2846317B889C200A4CEAB /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BA2846117B889C200A4CEAB /* MainStoryboard_iPad.storyboard */; };
-		0BA2846617B889C200A4CEAB /* QPRFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA2846517B889C200A4CEAB /* QPRFirstViewController.m */; };
+		0BA2846617B889C200A4CEAB /* QPR4MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA2846517B889C200A4CEAB /* QPR4MeViewController.m */; };
 		0BA2846817B889C200A4CEAB /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA2846717B889C200A4CEAB /* first.png */; };
 		0BA2846A17B889C200A4CEAB /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA2846917B889C200A4CEAB /* first@2x.png */; };
-		0BA2846D17B889C200A4CEAB /* QPRSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA2846C17B889C200A4CEAB /* QPRSecondViewController.m */; };
+		0BA2846D17B889C200A4CEAB /* QPR2HelpOthersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA2846C17B889C200A4CEAB /* QPR2HelpOthersViewController.m */; };
 		0BA2846F17B889C200A4CEAB /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA2846E17B889C200A4CEAB /* second.png */; };
 		0BA2847117B889C200A4CEAB /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA2847017B889C200A4CEAB /* second@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		014BF06217B96F4300D1DBB0 /* QPRMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPRMainViewController.h; sourceTree = "<group>"; };
+		014BF06317B96F4300D1DBB0 /* QPRMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QPRMainViewController.m; sourceTree = "<group>"; };
 		0BA2844317B889C200A4CEAB /* QPR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QPR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BA2844617B889C200A4CEAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0BA2844817B889C200A4CEAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,12 +45,12 @@
 		0BA2845C17B889C200A4CEAB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0BA2845F17B889C200A4CEAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		0BA2846217B889C200A4CEAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		0BA2846417B889C200A4CEAB /* QPRFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPRFirstViewController.h; sourceTree = "<group>"; };
-		0BA2846517B889C200A4CEAB /* QPRFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPRFirstViewController.m; sourceTree = "<group>"; };
+		0BA2846417B889C200A4CEAB /* QPR4MeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPR4MeViewController.h; sourceTree = "<group>"; };
+		0BA2846517B889C200A4CEAB /* QPR4MeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPR4MeViewController.m; sourceTree = "<group>"; };
 		0BA2846717B889C200A4CEAB /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		0BA2846917B889C200A4CEAB /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		0BA2846B17B889C200A4CEAB /* QPRSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPRSecondViewController.h; sourceTree = "<group>"; };
-		0BA2846C17B889C200A4CEAB /* QPRSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPRSecondViewController.m; sourceTree = "<group>"; };
+		0BA2846B17B889C200A4CEAB /* QPR2HelpOthersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPR2HelpOthersViewController.h; sourceTree = "<group>"; };
+		0BA2846C17B889C200A4CEAB /* QPR2HelpOthersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPR2HelpOthersViewController.m; sourceTree = "<group>"; };
 		0BA2846E17B889C200A4CEAB /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		0BA2847017B889C200A4CEAB /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,15 +103,17 @@
 				0BA2845617B889C200A4CEAB /* QPRAppDelegate.m */,
 				0BA2845E17B889C200A4CEAB /* MainStoryboard_iPhone.storyboard */,
 				0BA2846117B889C200A4CEAB /* MainStoryboard_iPad.storyboard */,
-				0BA2846417B889C200A4CEAB /* QPRFirstViewController.h */,
-				0BA2846517B889C200A4CEAB /* QPRFirstViewController.m */,
+				0BA2846417B889C200A4CEAB /* QPR4MeViewController.h */,
+				0BA2846517B889C200A4CEAB /* QPR4MeViewController.m */,
 				0BA2846717B889C200A4CEAB /* first.png */,
 				0BA2846917B889C200A4CEAB /* first@2x.png */,
-				0BA2846B17B889C200A4CEAB /* QPRSecondViewController.h */,
-				0BA2846C17B889C200A4CEAB /* QPRSecondViewController.m */,
+				0BA2846B17B889C200A4CEAB /* QPR2HelpOthersViewController.h */,
+				0BA2846C17B889C200A4CEAB /* QPR2HelpOthersViewController.m */,
 				0BA2846E17B889C200A4CEAB /* second.png */,
 				0BA2847017B889C200A4CEAB /* second@2x.png */,
 				0BA2844D17B889C200A4CEAB /* Supporting Files */,
+				014BF06217B96F4300D1DBB0 /* QPRMainViewController.h */,
+				014BF06317B96F4300D1DBB0 /* QPRMainViewController.m */,
 			);
 			path = QPR;
 			sourceTree = "<group>";
@@ -201,8 +206,9 @@
 			files = (
 				0BA2845317B889C200A4CEAB /* main.m in Sources */,
 				0BA2845717B889C200A4CEAB /* QPRAppDelegate.m in Sources */,
-				0BA2846617B889C200A4CEAB /* QPRFirstViewController.m in Sources */,
-				0BA2846D17B889C200A4CEAB /* QPRSecondViewController.m in Sources */,
+				0BA2846617B889C200A4CEAB /* QPR4MeViewController.m in Sources */,
+				0BA2846D17B889C200A4CEAB /* QPR2HelpOthersViewController.m in Sources */,
+				014BF06417B96F4300D1DBB0 /* QPRMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +341,7 @@
 				0BA2847617B889C200A4CEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
