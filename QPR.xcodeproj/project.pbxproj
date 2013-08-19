@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		014BF06417B96F4300D1DBB0 /* QPRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014BF06317B96F4300D1DBB0 /* QPRMainViewController.m */; };
+		014BF06717C288B300D1DBB0 /* QPRIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014BF06617C288B300D1DBB0 /* QPRIntroViewController.m */; };
+		014BF06B17C29E6600D1DBB0 /* introVideoiFrame.html in Resources */ = {isa = PBXBuildFile; fileRef = 014BF06A17C29E6600D1DBB0 /* introVideoiFrame.html */; };
 		0BA2844717B889C200A4CEAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA2844617B889C200A4CEAB /* UIKit.framework */; };
 		0BA2844917B889C200A4CEAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA2844817B889C200A4CEAB /* Foundation.framework */; };
 		0BA2844B17B889C200A4CEAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA2844A17B889C200A4CEAB /* CoreGraphics.framework */; };
@@ -30,6 +32,9 @@
 /* Begin PBXFileReference section */
 		014BF06217B96F4300D1DBB0 /* QPRMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPRMainViewController.h; sourceTree = "<group>"; };
 		014BF06317B96F4300D1DBB0 /* QPRMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QPRMainViewController.m; sourceTree = "<group>"; };
+		014BF06517C288B300D1DBB0 /* QPRIntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPRIntroViewController.h; sourceTree = "<group>"; };
+		014BF06617C288B300D1DBB0 /* QPRIntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QPRIntroViewController.m; sourceTree = "<group>"; };
+		014BF06A17C29E6600D1DBB0 /* introVideoiFrame.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = introVideoiFrame.html; sourceTree = "<group>"; };
 		0BA2844317B889C200A4CEAB /* QPR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QPR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BA2844617B889C200A4CEAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0BA2844817B889C200A4CEAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -45,12 +50,12 @@
 		0BA2845C17B889C200A4CEAB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0BA2845F17B889C200A4CEAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		0BA2846217B889C200A4CEAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		0BA2846417B889C200A4CEAB /* QPR4MeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPR4MeViewController.h; sourceTree = "<group>"; };
-		0BA2846517B889C200A4CEAB /* QPR4MeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPR4MeViewController.m; sourceTree = "<group>"; };
+		0BA2846417B889C200A4CEAB /* QPR4MeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QPR4MeViewController.h; path = ../QPR4MeViewController.h; sourceTree = "<group>"; };
+		0BA2846517B889C200A4CEAB /* QPR4MeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = QPR4MeViewController.m; path = ../QPR4MeViewController.m; sourceTree = "<group>"; };
 		0BA2846717B889C200A4CEAB /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		0BA2846917B889C200A4CEAB /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		0BA2846B17B889C200A4CEAB /* QPR2HelpOthersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPR2HelpOthersViewController.h; sourceTree = "<group>"; };
-		0BA2846C17B889C200A4CEAB /* QPR2HelpOthersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPR2HelpOthersViewController.m; sourceTree = "<group>"; };
+		0BA2846B17B889C200A4CEAB /* QPR2HelpOthersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QPR2HelpOthersViewController.h; path = ../QPR2HelpOthersViewController.h; sourceTree = "<group>"; };
+		0BA2846C17B889C200A4CEAB /* QPR2HelpOthersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = QPR2HelpOthersViewController.m; path = ../QPR2HelpOthersViewController.m; sourceTree = "<group>"; };
 		0BA2846E17B889C200A4CEAB /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		0BA2847017B889C200A4CEAB /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +74,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		014BF06817C288CC00D1DBB0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0BA2846B17B889C200A4CEAB /* QPR2HelpOthersViewController.h */,
+				0BA2846C17B889C200A4CEAB /* QPR2HelpOthersViewController.m */,
+				0BA2846417B889C200A4CEAB /* QPR4MeViewController.h */,
+				0BA2846517B889C200A4CEAB /* QPR4MeViewController.m */,
+				014BF06517C288B300D1DBB0 /* QPRIntroViewController.h */,
+				014BF06617C288B300D1DBB0 /* QPRIntroViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		014BF06917C29E1B00D1DBB0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				014BF06A17C29E6600D1DBB0 /* introVideoiFrame.html */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		0BA2843A17B889C200A4CEAB = {
 			isa = PBXGroup;
 			children = (
@@ -99,16 +125,14 @@
 		0BA2844C17B889C200A4CEAB /* QPR */ = {
 			isa = PBXGroup;
 			children = (
+				014BF06917C29E1B00D1DBB0 /* Data */,
+				014BF06817C288CC00D1DBB0 /* Controllers */,
 				0BA2845517B889C200A4CEAB /* QPRAppDelegate.h */,
 				0BA2845617B889C200A4CEAB /* QPRAppDelegate.m */,
 				0BA2845E17B889C200A4CEAB /* MainStoryboard_iPhone.storyboard */,
 				0BA2846117B889C200A4CEAB /* MainStoryboard_iPad.storyboard */,
-				0BA2846417B889C200A4CEAB /* QPR4MeViewController.h */,
-				0BA2846517B889C200A4CEAB /* QPR4MeViewController.m */,
 				0BA2846717B889C200A4CEAB /* first.png */,
 				0BA2846917B889C200A4CEAB /* first@2x.png */,
-				0BA2846B17B889C200A4CEAB /* QPR2HelpOthersViewController.h */,
-				0BA2846C17B889C200A4CEAB /* QPR2HelpOthersViewController.m */,
 				0BA2846E17B889C200A4CEAB /* second.png */,
 				0BA2847017B889C200A4CEAB /* second@2x.png */,
 				0BA2844D17B889C200A4CEAB /* Supporting Files */,
@@ -194,6 +218,7 @@
 				0BA2846A17B889C200A4CEAB /* first@2x.png in Resources */,
 				0BA2846F17B889C200A4CEAB /* second.png in Resources */,
 				0BA2847117B889C200A4CEAB /* second@2x.png in Resources */,
+				014BF06B17C29E6600D1DBB0 /* introVideoiFrame.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +234,7 @@
 				0BA2846617B889C200A4CEAB /* QPR4MeViewController.m in Sources */,
 				0BA2846D17B889C200A4CEAB /* QPR2HelpOthersViewController.m in Sources */,
 				014BF06417B96F4300D1DBB0 /* QPRMainViewController.m in Sources */,
+				014BF06717C288B300D1DBB0 /* QPRIntroViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
