@@ -9,7 +9,11 @@
 /* Begin PBXBuildFile section */
 		014BF06417B96F4300D1DBB0 /* QPRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014BF06317B96F4300D1DBB0 /* QPRMainViewController.m */; };
 		014BF06717C288B300D1DBB0 /* QPRIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014BF06617C288B300D1DBB0 /* QPRIntroViewController.m */; };
-		014BF06B17C29E6600D1DBB0 /* introVideoiFrame.html in Resources */ = {isa = PBXBuildFile; fileRef = 014BF06A17C29E6600D1DBB0 /* introVideoiFrame.html */; };
+		014BF06B17C29E6600D1DBB0 /* YouTubeTemplate.html in Resources */ = {isa = PBXBuildFile; fileRef = 014BF06A17C29E6600D1DBB0 /* YouTubeTemplate.html */; };
+		014BF07417C2C51400D1DBB0 /* QPRLogo114.png in Resources */ = {isa = PBXBuildFile; fileRef = 014BF07317C2C51400D1DBB0 /* QPRLogo114.png */; };
+		014BF07917C3D46100D1DBB0 /* QPRLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 014BF07817C3D46100D1DBB0 /* QPRLogo.png */; };
+		014BF07B17C3D47A00D1DBB0 /* QPRLogo72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 014BF07A17C3D47A00D1DBB0 /* QPRLogo72@2x.png */; };
+		014BF07D17C3D48700D1DBB0 /* QPRLogo72.png in Resources */ = {isa = PBXBuildFile; fileRef = 014BF07C17C3D48700D1DBB0 /* QPRLogo72.png */; };
 		0BA2844717B889C200A4CEAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA2844617B889C200A4CEAB /* UIKit.framework */; };
 		0BA2844917B889C200A4CEAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA2844817B889C200A4CEAB /* Foundation.framework */; };
 		0BA2844B17B889C200A4CEAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA2844A17B889C200A4CEAB /* CoreGraphics.framework */; };
@@ -34,7 +38,11 @@
 		014BF06317B96F4300D1DBB0 /* QPRMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QPRMainViewController.m; sourceTree = "<group>"; };
 		014BF06517C288B300D1DBB0 /* QPRIntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPRIntroViewController.h; sourceTree = "<group>"; };
 		014BF06617C288B300D1DBB0 /* QPRIntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QPRIntroViewController.m; sourceTree = "<group>"; };
-		014BF06A17C29E6600D1DBB0 /* introVideoiFrame.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = introVideoiFrame.html; sourceTree = "<group>"; };
+		014BF06A17C29E6600D1DBB0 /* YouTubeTemplate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = YouTubeTemplate.html; sourceTree = "<group>"; };
+		014BF07317C2C51400D1DBB0 /* QPRLogo114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QPRLogo114.png; sourceTree = SOURCE_ROOT; };
+		014BF07817C3D46100D1DBB0 /* QPRLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QPRLogo.png; sourceTree = SOURCE_ROOT; };
+		014BF07A17C3D47A00D1DBB0 /* QPRLogo72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QPRLogo72@2x.png"; sourceTree = SOURCE_ROOT; };
+		014BF07C17C3D48700D1DBB0 /* QPRLogo72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QPRLogo72.png; sourceTree = SOURCE_ROOT; };
 		0BA2844317B889C200A4CEAB /* QPR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QPR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BA2844617B889C200A4CEAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0BA2844817B889C200A4CEAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -90,7 +98,11 @@
 		014BF06917C29E1B00D1DBB0 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				014BF06A17C29E6600D1DBB0 /* introVideoiFrame.html */,
+				014BF07C17C3D48700D1DBB0 /* QPRLogo72.png */,
+				014BF07A17C3D47A00D1DBB0 /* QPRLogo72@2x.png */,
+				014BF07817C3D46100D1DBB0 /* QPRLogo.png */,
+				014BF07317C2C51400D1DBB0 /* QPRLogo114.png */,
+				014BF06A17C29E6600D1DBB0 /* YouTubeTemplate.html */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -218,7 +230,11 @@
 				0BA2846A17B889C200A4CEAB /* first@2x.png in Resources */,
 				0BA2846F17B889C200A4CEAB /* second.png in Resources */,
 				0BA2847117B889C200A4CEAB /* second@2x.png in Resources */,
-				014BF06B17C29E6600D1DBB0 /* introVideoiFrame.html in Resources */,
+				014BF06B17C29E6600D1DBB0 /* YouTubeTemplate.html in Resources */,
+				014BF07417C2C51400D1DBB0 /* QPRLogo114.png in Resources */,
+				014BF07917C3D46100D1DBB0 /* QPRLogo.png in Resources */,
+				014BF07B17C3D47A00D1DBB0 /* QPRLogo72@2x.png in Resources */,
+				014BF07D17C3D48700D1DBB0 /* QPRLogo72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

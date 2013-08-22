@@ -10,5 +10,6 @@
 
 @interface QPRIntroViewController : UIViewController <UIWebViewDelegate>
 @property (weak, nonatomic) IBOutlet UIWebView *videoView;
+@property (nonatomic, getter=hasPlayed) BOOL played;
 
 @end
